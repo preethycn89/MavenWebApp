@@ -58,7 +58,7 @@
     </dependencies>
 
     <build>
-        <finalName>${project.artifactId}</finalName>
+        <finalName>${project.artifactId}-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
@@ -70,7 +70,7 @@
                     <stopPort>8888</stopPort>
                     <scanIntervalSeconds>8</scanIntervalSeconds>
                     <webAppSourceDirectory>${webAppSourceDir}</webAppSourceDirectory>
-                    <war>${project.basedir}/target/${project.artifactId}</war>
+                    <war>${project.basedir}/target/${project.build.finalName}</war>
 
                     <webAppConfig>
                         <contextPath>/</contextPath>
