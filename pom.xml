@@ -12,7 +12,7 @@
     <groupId>com.companyname.automobile</groupId>
     <artifactId>trucks</artifactId>
     <packaging>war</packaging>
-    <version>1.0.${BUILD_NUM}</version>
+    <version>1.0</version>
     <name>trucks Maven Webapp</name>
 
     <properties>
