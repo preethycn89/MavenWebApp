@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.companyname.automobile</groupId>
-    <artifactId>trucks</artifactId>
+    <artifactId>JavaWebApp</artifactId>
     <packaging>war</packaging>
     <version>1.0.${BUILD_NUM}</version>
     <name>trucks Maven Webapp</name>
