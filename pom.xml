@@ -70,7 +70,7 @@
                     <stopPort>8888</stopPort>
                     <scanIntervalSeconds>8</scanIntervalSeconds>
                     <webAppSourceDirectory>${webAppSourceDir}</webAppSourceDirectory>
-                    <war>${project.basedir}/target/${project.build.finalName}</war>
+                    <war>${project.basedir}/target/${project.artifactId}</war>
 
                     <webAppConfig>
                         <contextPath>/</contextPath>
