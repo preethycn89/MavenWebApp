@@ -2,7 +2,7 @@ package com.companyname.automobile;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import com.companyname.automobile.Adder;
+
 
 public class AdderTest {
     private Adder adder;
