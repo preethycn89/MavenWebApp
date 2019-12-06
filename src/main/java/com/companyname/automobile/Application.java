@@ -1,11 +1,12 @@
 package com.companyname.automobile;
 public class Application {
     public static void main(String[] args) {
-        addmethod();
+        Adder adder = new Adder();
+        System.out.println("2 + 2 = " + adder.add(2, 2));
+		addmethod();
     }
 	public void addmethod()
 	{
-		Adder adder = new Adder();
-        System.out.println("2 + 2 = " + adder.add(2, 2));
+		System.out.println("Completed Add");
 	}
 }
