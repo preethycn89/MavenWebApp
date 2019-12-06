@@ -11,39 +11,39 @@ public class AdderTest {
         adder = new Adder();
     }
     @Test
-    public void whenAddTwoZeros_ThenSumIsZero() {
+    public void whenAddTwoZerosThenSumIsZero() {
         assertEquals(0, adder.add(0, 0));
     }
     @Test
-    public void whenAddFirstZeroSecondNegative_ThenSumIsEqualToSecond() {
+    public void whenAddFirstZeroSecondNegativeThenSumIsEqualToSecond() {
         assertEquals(-1, adder.add(0, -1));
     }
     @Test
-    public void whenAddFirstNegativeSecondZero_ThenSumIsEqualToFirst() {
+    public void whenAddFirstNegativeSecondZeroThenSumIsEqualToFirst() {
         assertEquals(-1, adder.add(-1, 0));
     }
     @Test
-    public void whenTwoNegatives_ThenSumIsCorrect() {
+    public void whenTwoNegativesThenSumIsCorrect() {
         assertEquals(-3, adder.add(-1, -2));
     }
     @Test
-    public void whenAddFirstZeroSecondPositive_ThenSumIsEqualToSecond() {
+    public void whenAddFirstZeroSecondPositiveThenSumIsEqualToSecond() {
         assertEquals(1, adder.add(0, 1));
     }
     @Test
-    public void whenAddFirstPositiveSecondZero_ThenSumIsEqualToFirst() {
+    public void whenAddFirstPositiveSecondZeroThenSumIsEqualToFirst() {
         assertEquals(1, adder.add(1, 0));
     }
     @Test
-    public void whenTwoPositives_ThenSumIsCorrect() {
+    public void whenTwoPositivesThenSumIsCorrect() {
         assertEquals(3, adder.add(1, 2));
     }
     @Test
-    public void whenAddFirstPositiveSecondNegative_ThenSumIsCorrect() {
+    public void whenAddFirstPositiveSecondNegativeThenSumIsCorrect() {
         assertEquals(0, adder.add(1, -1));
     }
     @Test
-    public void whenAddFirstNegativeSecondPositive_ThenSumIsCorrect() {
+    public void whenAddFirstNegativeSecondPositiveThenSumIsCorrect() {
         assertEquals(0, adder.add(-1, 1));
     }
 }
