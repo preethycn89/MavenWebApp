@@ -17,7 +17,7 @@
 
     <properties>
         <jdk.version>1.7</jdk.version>
-        <skipTests>true</skipTests>
+        <skipTests>false</skipTests>
 
         <!-- servlet/jsp/EL (3.0/2.2/2.2),(3.1/2.3/3.0) -->
         <javaee-api.version>7.0</javaee-api.version>
